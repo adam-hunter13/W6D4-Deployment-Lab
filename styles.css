@@ -16,35 +16,49 @@ h1{
     
 }
 
+
+
 /* Add a gray background color to the top navigation */
 .topnav {
     background-color: #333;
     overflow: hidden;
-  }
+}
   
   /* Style the links inside the navigation bar */
-  .topnav a {
+.topnav a {
     float: left;
     color: white;
     text-align: center;
     padding: 14px 16px;
     text-decoration: none;
     font-size: 17px;
-  }
+}
   
 /* Change the color of links on hover */
-  .topnav a:hover {
+.topnav a:hover {
     background-color: white;
     color: black;
-  }
+}
   
 /* Add an active class to highlight the current page */
-  .topnav a.active {
+.topnav a.active {
     background-color: white;
     color: black;
-  }
+}
 
   /* Hide the link that should open and close the topnav on small screens */
 .topnav .icon {
     display: none;
-  }
+}
+
+.box1{
+      width: 300px;
+      height: 100px;
+      background-color: rgba(0,0,0,.5);
+      color: rgb(255, 255, 255);
+      border-radius: 25px;
+      border-style: solid;
+      display: flex;
+      justify-content: center;
+      text-align: center;
+ }

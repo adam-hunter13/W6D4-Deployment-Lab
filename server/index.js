@@ -7,15 +7,15 @@ app.get('/',function(req,res) {
   res.sendFile(path.join(__dirname, '../home.html'));
 });
 
-app.get('/',function(req,res) {
+app.get('/about',function(req,res) {
     res.sendFile(path.join(__dirname, '../about.html'));
 });
 
-app.get('/',function(req,res) {
+app.get('/resume',function(req,res) {
     res.sendFile(path.join(__dirname, '../resume.html'));
 });
 
-app.get('/',function(req,res) {
+app.get('/projects',function(req,res) {
     res.sendFile(path.join(__dirname, '../projects.html'));
 });
 
